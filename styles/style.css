@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:300');
+
+html, body {
+  font-family: 'Assistant', sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page header rulesets */
+
+header {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.card-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+}
+
+.card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Page body rulesets */
+
+.wip-message {
+  text-align: center;
+  font-variant: small-caps;
+}
