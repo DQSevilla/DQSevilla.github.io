@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:300');
 
+/* Page wide rulesets */
+
 html, body {
   font-family: 'Assistant', sans-serif;
   background-color: #e0e0e0;
@@ -7,11 +9,18 @@ html, body {
   padding: 0;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  width: 75%;
+  background-image: linear-gradient(to right, rgba(41, 67, 78, 0), rgba(41, 67, 78, 0.75), rgba(41, 67, 78, 0));
+}
+
 /* Page header rulesets */
 
 .main-header {
   color: white;
-  background-color: #546e7a;
+  background-color: #546e7a; 
   text-align: center;
 }
 
@@ -55,6 +64,7 @@ h2, h3, h4, h5, h6 {
   font-variant: small-caps;
 }
 
+/* Non-mobile views */
 @media screen and (min-width: 480px) {
   .subheading {
     justify-content: center;
@@ -66,3 +76,8 @@ h2, h3, h4, h5, h6 {
   }
 }
 
+/* Page footer rulesets */
+
+.contact-info {
+  text-align: center;
+}
