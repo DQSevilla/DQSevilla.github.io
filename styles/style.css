@@ -2,25 +2,30 @@
 
 html, body {
   font-family: 'Assistant', sans-serif;
-  background-color: #F5F5F5;
+  background-color: #e0e0e0;
   margin: 0;
   padding: 0;
 }
 
 /* Page header rulesets */
 
-header {
+.main-header {
+  color: white;
+  background-color: #546e7a;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-weight: bolder;
+}
+
+h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
 .card-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 5px;
   padding: 2px 16px;
 }
 
@@ -28,9 +33,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.subheading {
+  display: flex;
+  justify-content: space-around;
+  color: #e0e0e0;
+}
+
 .heading {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 5px 10px 5px;
+}
+
+.decorative {
+  color: white;
+  font-weight: bold;
 }
 
 /* Page body rulesets */
@@ -39,3 +54,15 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-variant: small-caps;
 }
+
+@media screen and (min-width: 480px) {
+  .subheading {
+    justify-content: center;
+  }
+
+  .heading {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
