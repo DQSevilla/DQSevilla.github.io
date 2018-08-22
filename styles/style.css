@@ -1,41 +1,106 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:300');
 
+/* Page-wide rulesets */
+
 html, body {
   font-family: 'Assistant', sans-serif;
-  background-color: #F5F5F5;
+  text-align: center;
+  background-color: #e0e0e0;
   margin: 0;
   padding: 0;
 }
 
-/* Page header rulesets */
-
-header {
-  text-align: center;
+a:visited {
+  color: #819ca9;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* Page header rulesets */
+
+.main-header {
+  color: #e0e0e0;
+  background-color: #29434e;
+}
+
+h3 {
   font-weight: normal;
 }
 
 .card-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px;
   padding: 2px 16px;
 }
 
-.card-container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.subheading {
+  display: flex;
+  justify-content: center;
 }
 
 .heading {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.decorative {
+  color: white;
+  font-weight: bold;
 }
 
 /* Page body rulesets */
 
+.icon-section {
+  margin: auto;
+  width: 50%;
+  padding: 5px 10px 5px 10px;
+}
+
+.icon-set {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.icon-elem {
+  color: #546e7a;
+}
+
+.icon-elem:hover {
+  color: #29434e;
+}
+
+/* Page footer rulesets */
+
 .wip-message {
-  text-align: center;
   font-variant: small-caps;
+}
+
+.contact-info {
+  background-color: #29434e;
+  color: #e0e0e0;
+}
+
+/* Media queries */
+
+/* Tablet view */
+@media screen and (max-width: 900px) {
+  .icon-section {
+    width: 75%;
+  }
+}
+
+/* Mobile view */
+@media screen and (max-width: 480px) {
+  .icon-elem {
+    padding: 26px;
+  }
+
+  .heading {
+    margin: 10px 5px 10px 5px;
+  }
+}
+
+/* Tiny screens */
+@media screen and (max-width: 340px) {
+  .icon-elem  {
+    padding: 10px;
+  }
 }
