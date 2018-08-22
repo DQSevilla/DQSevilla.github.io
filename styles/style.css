@@ -56,6 +56,7 @@ h3 {
 .icon-set {
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .icon-elem {
@@ -79,11 +80,21 @@ h3 {
 
 /* Media queries */
 
+/* Tablet view */
+@media screen and (max-width: 900px) {
+  .icon-section {
+    width: 75%;
+  }
+}
+
 /* Mobile view */
 @media screen and (max-width: 480px) {
   .icon-section {
     width: 100%;
-    overflow: scroll;
+  }
+  
+  .icon-elem {
+    padding: 25px;
   }
 
   .heading {
@@ -91,9 +102,9 @@ h3 {
   }
 }
 
-/* Tablet view */
-@media screen and (max-width: 900px) {
-  .icon-section {
-    width: 75%;
+/* Tiny screens */
+@media screen and (max-width: 340px) {
+  .icon-elem  {
+    padding: 10px;
   }
 }
