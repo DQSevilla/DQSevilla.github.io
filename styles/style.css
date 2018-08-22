@@ -89,12 +89,8 @@ h3 {
 
 /* Mobile view */
 @media screen and (max-width: 480px) {
-  .icon-section {
-    width: 100%;
-  }
-  
   .icon-elem {
-    padding: 25px;
+    padding: 26px;
   }
 
   .heading {
