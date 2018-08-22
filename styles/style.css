@@ -10,6 +10,10 @@ html, body {
   padding: 0;
 }
 
+a {
+  color: #819ca9;
+}
+
 a:visited {
   color: #819ca9;
 }
