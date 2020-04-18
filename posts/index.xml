@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on David Q Sevilla</title>
+    <link>https://www.davidqsevilla.com/posts/</link>
+    <description>Recent content in Posts on David Q Sevilla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Apr 2020 13:16:41 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.davidqsevilla.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LSS CMS API Contribution</title>
+      <link>https://www.davidqsevilla.com/posts/lss-cms-api-contribution/</link>
+      <pubDate>Sat, 18 Apr 2020 13:16:41 -0400</pubDate>
+      
+      <guid>https://www.davidqsevilla.com/posts/lss-cms-api-contribution/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
